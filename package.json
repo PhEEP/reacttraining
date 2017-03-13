@@ -1,0 +1,19 @@
+{
+  "name": "reacttraining",
+  "version": "1.0.0",
+  "description": "React training app starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js\""
+  },
+  "repository": "https://github.com/PhEEP/reacttraining.git",
+  "author": "Philippe Moore",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "html-webpack-plugin": "^2.28.0"
+  }
+}
